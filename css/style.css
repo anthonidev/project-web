@@ -498,3 +498,253 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/*---------------------------------------CONTACTO-----------------------------------------------------*/
+
+.container .contacto {
+    background-color: #bdd1ea;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23929fac' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    margin: 20px 0;
+    padding: 20px;
+    height: 600px;
+    position: relative;
+    justify-content: left;
+    display: flex;
+}
+
+.container .contacto .contactinfo {
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-self: start;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .contacto .contactinfo h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.container .contacto .contactinfo h2:hover {
+    background-size: 100% 2px;
+}
+
+.container .contacto .contactinfo .info {
+    position: relative;
+    margin: 20px 0;
+    padding: 3rem 2rem;
+}
+
+.container .contacto .contactinfo .info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.container .contacto .contactinfo .info li span:nth-child(1) {
+    width: 30px;
+    min-width: 30px;
+}
+
+.container .contacto .contactinfo .info li span:nth-child(1) i {
+    font-size: 30px;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+.container .contacto .contactinfo .info li span:nth-child(2) {
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.container .contacto .contactinfo .info li:hover span:nth-child(1) i,
+.container .contacto .contactinfo .info li:hover span:nth-child(2) {
+    opacity: 1;
+}
+
+.container .contacto .contactinfo .sci {
+    position: relative;
+    display: flex;
+    padding-left: 1.85rem;
+}
+
+.container .contacto .contactinfo .sci li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.container .contacto .contactinfo .sci li a {
+    text-decoration: none;
+}
+
+.container .contacto .contactinfo .sci li a:hover span {
+    opacity: 1;
+}
+
+.container .contacto .contactForm {
+    position: absolute;
+    padding: 70px 50px;
+    background: whitesmoke;
+    margin-left: 113px;
+    padding-left: 250px;
+    width: calc(100% - 155px);
+    height: 96%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.container .contacto .contactForm h2 {
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .contacto .contactForm .formBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.container .contacto .contactForm .formBox .inputBox {
+    position: relative;
+    margin: 0 0 35px 0;
+}
+
+.container .contacto .contactForm .formBox .inputBox.w50 {
+    width: 47%;
+}
+
+.container .contacto .contactForm .formBox .inputBox.w100 {
+    width: 100%;
+}
+
+.container .contacto .contactForm .formBox .inputBox textarea,
+.container .contacto .contactForm .formBox .inputBox input {
+    width: 100% !important;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.container .contacto .contactForm .formBox .inputBox textarea {
+    min-height: 120px;
+}
+
+.container .contacto .contactForm .formBox .inputBox label {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    transition: 0.5;
+    pointer-events: none;
+}
+
+.container .contacto .contactForm .formBox .inputBox textarea:focus~label,
+.container .contacto .contactForm .formBox .inputBox input:focus~label,
+.container .contacto .contactForm .formBox .inputBox textarea:valid~label,
+.container .contacto .contactForm .formBox .inputBox input:valid~label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: red;
+}
+
+input[type="email"]:focus~label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="submit"] {
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="submit"]:hover {
+    background: red;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="reset"] {
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="reset"]:hover {
+    background: red;
+}
+
+.footerContact {
+    position: fixed;
+    padding: 1rem 30rem;
+}
+
+.footerContact .loogo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footerContact .loogo .cop p {
+    font-size: 25px;
+}
+
+.sci a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+.sci a span:hover {
+    background: #f12020;
+}
+
+.sci {
+    margin: 20px 0 0 0;
+}
