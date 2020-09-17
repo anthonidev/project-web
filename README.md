@@ -26,4 +26,4 @@ https://github.com/anthoni-gmu/project-web
 ##### proyecto no culminado
 ------------
 **autor:** Anthoni Portocarrero Rodriguez
-**docente:**Jesus Anthonio Pacahuala Arroyo
+**docente:** Jesus Anthonio Pacahuala Arroyo
