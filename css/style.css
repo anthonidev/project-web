@@ -40,9 +40,25 @@ main article {
     margin-bottom: 20px;
 }
 
-.menu .container .logo img {
-    width: 150px;
-    position: center;
+.logo {
+    background: #232f3e;
+    border-bottom: solid red;
+    padding-bottom: 0.5rem;
+}
+
+.logo a img:hover {
+    border-radius: 15px;
+    border: solid red;
+}
+
+.logo a img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    border-radius: 15px;
+    border: solid rgba(255, 255, 255, 0.4);
 }
 
 .menu .container-button-menu {
@@ -330,14 +346,33 @@ main article {
     position: relative;
 }
 
-.eslogan h2 {
+.efecto {
+    text-align: center;
     font: 700 4em/1 "Oswald", sans-serif;
     letter-spacing: 0;
     padding: .25em 0 .325em;
     display: block;
     margin: 0 auto;
-    text-shadow: 20px 0 20px red;
-    text-align: center;
+    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+    /* Clip Background Image */
+    background: url(https://c.wallhere.com/photos/61/e9/1920x1080_px_Black_And_Red-1223898.jpg!d) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 10s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 .plano2 {
@@ -366,13 +401,13 @@ main article {
     padding: 0rem 2rem;
 }
 
-.plano3 .ContainerOfertas {
+.vitrina .ContainerVitrina {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.plano3 img {
+.vitrina img {
     width: 23rem;
     object-fit: cover;
     border-radius: 1rem;
@@ -383,7 +418,7 @@ main article {
     border-radius: 1rem;
 }
 
-.plano3 {
+.vitrina {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -393,7 +428,7 @@ main article {
     border-width: 4px;
 }
 
-.plano3-ofert {
+.vitrina-iten {
     text-align: center;
     padding: 0rem 2rem;
 }
@@ -500,7 +535,7 @@ footer {
 }
 
 
-/*---------------------------------------CONTACTO-----------------------------------------------------*/
+/*---------------------------------------------------------CONTACTO-----------------------------------------------------------------------*/
 
 .container .contacto {
     background-color: #bdd1ea;
@@ -715,7 +750,7 @@ input[type="email"]:focus~label {
 }
 
 .footerContact {
-    position: fixed;
+    position: relative;
     padding: 1rem 30rem;
 }
 
@@ -725,8 +760,12 @@ input[type="email"]:focus~label {
     align-items: center;
 }
 
+.footerlogo {
+    width: 14.3rem;
+}
+
 .footerContact .loogo .cop p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .sci a span {
@@ -748,3 +787,29 @@ input[type="email"]:focus~label {
 .sci {
     margin: 20px 0 0 0;
 }
+
+
+/*-----------------------------------------------------END-CONTACTO-----------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------BEBIDAS FERMENTADAS-----------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------VINOS-----------------------------------------------------------------------*/
+
+.vinos article {
+    background-color: #bdd1ea;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23929fac' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    margin: 20px 0;
+    padding: 20px;
+    height: 1170px;
+}
+
+.vinos {
+    margin: auto;
+    width: 90%;
+    max-width: 1500px;
+}
+
+
+/*-----------------------------------------------------END-VINOS-----------------------------------------------------------------------*/
