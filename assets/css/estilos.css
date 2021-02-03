@@ -1,0 +1,399 @@
+.panel-title{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+#main{
+        margin-top: 100px;
+}
+
+.u-size-100{
+	width: 100px;
+	text-align: center;
+}
+
+.main-form{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.panel-info>.panel-heading{
+	color: #4a5f79;
+    background-color: #e95420;
+}
+.main-login{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.footer{
+	margin-top: 100px;
+  
+}
+
+/* Elemento | http://localhost:8000/OneShot01/panel/bebidas/form_registrar.php */
+
+div.row:nth-child(4) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2) {
+	padding: 5px;
+}
+
+
+.titulo-bebida{
+	font-size: 15px;
+	margin: 0;
+	font-weight: bold;
+	padding: 5px;
+}
+  
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #232f3e;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 100px;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.box h2:hover {
+    background-size: 100% 2px;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.center .content {
+    padding: 0px 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.center .content span {
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.center .content .fas:hover {
+    color: tomato;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #f12020;
+}
+
+.cop p {
+    color: white;
+    padding: 0 15px 0 0;
+    text-align: center;
+}
+
+.ring {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+.container .contacto {
+    background-color: #53606A;
+    background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M82.42 180h-1.415L0 98.995v-2.827L6.167 90 0 83.833V81.004L81.005 0h2.827L90 6.167 96.167 0H98.996L180 81.005v2.827L173.833 90 180 96.167V98.996L98.995 180h-2.827L90 173.833 83.833 180H82.42zm0-1.414L1.413 97.58 8.994 90l-7.58-7.58L82.42 1.413 90 8.994l7.58-7.58 81.006 81.005-7.58 7.58 7.58 7.58-81.005 81.006-7.58-7.58-7.58 7.58zM175.196 0h-25.832c1.033 2.924 2.616 5.59 4.625 7.868C152.145 9.682 151 12.208 151 15c0 5.523 4.477 10 10 10 1.657 0 3 1.343 3 3v4h16V0h-4.803c.51.883.803 1.907.803 3 0 3.314-2.686 6-6 6s-6-2.686-6-6c0-1.093.292-2.117.803-3h10.394-13.685C161.18.938 161 1.948 161 3v4c-4.418 0-8 3.582-8 8s3.582 8 8 8c2.76 0 5 2.24 5 5v2h4v-4h2v4h4v-4h2v4h2V0h-4.803zm-15.783 0c-.27.954-.414 1.96-.414 3v2.2c-1.25.254-2.414.74-3.447 1.412-1.716-1.93-3.098-4.164-4.054-6.612h7.914zM180 17h-3l2.143-10H180v10zm-30.635 163c-.884-2.502-1.365-5.195-1.365-8 0-13.255 10.748-24 23.99-24H180v32h-30.635zm12.147 0c.5-1.416 1.345-2.67 2.434-3.66l-1.345-1.48c-1.498 1.364-2.62 3.136-3.186 5.14H151.5c-.97-2.48-1.5-5.177-1.5-8 0-12.15 9.84-22 22-22h8v30h-18.488zm13.685 0c-1.037-1.793-2.976-3-5.197-3-2.22 0-4.16 1.207-5.197 3h10.394zM0 148h8.01C21.26 148 32 158.742 32 172c0 2.805-.48 5.498-1.366 8H0v-32zm0 2h8c12.15 0 22 9.847 22 22 0 2.822-.53 5.52-1.5 8h-7.914c-.567-2.004-1.688-3.776-3.187-5.14l-1.346 1.48c1.09.99 1.933 2.244 2.434 3.66H0v-30zm15.197 30c-1.037-1.793-2.976-3-5.197-3-2.22 0-4.16 1.207-5.197 3h10.394zM0 32h16v-4c0-1.657 1.343-3 3-3 5.523 0 10-4.477 10-10 0-2.794-1.145-5.32-2.992-7.134C28.018 5.586 29.6 2.924 30.634 0H0v32zm0-2h2v-4h2v4h4v-4h2v4h4v-2c0-2.76 2.24-5 5-5 4.418 0 8-3.582 8-8s-3.582-8-8-8V3c0-1.052-.18-2.062-.512-3H0v30zM28.5 0c-.954 2.448-2.335 4.683-4.05 6.613-1.035-.672-2.2-1.16-3.45-1.413V3c0-1.04-.144-2.046-.414-3H28.5zM0 17h3L.857 7H0v10zM15.197 0c.51.883.803 1.907.803 3 0 3.314-2.686 6-6 6S4 6.314 4 3c0-1.093.292-2.117.803-3h10.394zM109 115c-1.657 0-3 1.343-3 3v4H74v-4c0-1.657-1.343-3-3-3-5.523 0-10-4.477-10-10 0-2.793 1.145-5.318 2.99-7.132C60.262 93.638 58 88.084 58 82c0-13.255 10.748-24 23.99-24h16.02C111.26 58 122 68.742 122 82c0 6.082-2.263 11.636-5.992 15.866C117.855 99.68 119 102.206 119 105c0 5.523-4.477 10-10 10zm0-2c-2.76 0-5 2.24-5 5v2h-4v-4h-2v4h-4v-4h-2v4h-4v-4h-2v4h-4v-4h-2v4h-4v-2c0-2.76-2.24-5-5-5-4.418 0-8-3.582-8-8s3.582-8 8-8v-4c0-2.64 1.136-5.013 2.946-6.66L72.6 84.86C70.39 86.874 69 89.775 69 93v2.2c-1.25.254-2.414.74-3.447 1.412C62.098 92.727 60 87.61 60 82c0-12.15 9.84-22 22-22h16c12.15 0 22 9.847 22 22 0 5.61-2.097 10.728-5.55 14.613-1.035-.672-2.2-1.16-3.45-1.413V93c0-3.226-1.39-6.127-3.6-8.14l-1.346 1.48C107.864 87.987 109 90.36 109 93v4c4.418 0 8 3.582 8 8s-3.582 8-8 8zM90.857 97L93 107h-6l2.143-10h1.714zM80 99c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm20 0c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6z' fill='%239C92AC' fill-opacity='0.74' fill-rule='evenodd'/%3E%3C/svg%3E");
+    margin: 20px 0;
+    padding: 20px;
+    height: 700px;
+    position: relative;
+    justify-content: left;
+    display: flex;
+}
+
+
+  
+.container .contacto .contactinfo {
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-self: start;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .contacto .contactinfo h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.container .contacto .contactinfo h2:hover {
+    background-size: 100% 2px;
+}
+
+.container .contacto .contactinfo .info {
+    position: relative;
+    margin: 20px 0;
+    padding: 3rem 2rem;
+}
+
+.container .contacto .contactinfo .info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.container .contacto .contactinfo .info li span:nth-child(1) {
+    width: 30px;
+    min-width: 30px;
+}
+
+.container .contacto .contactinfo .info li span:nth-child(1) i {
+    font-size: 30px;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+.container .contacto .contactinfo .info li span:nth-child(2) {
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.container .contacto .contactinfo .info li:hover span:nth-child(1) i,
+.container .contacto .contactinfo .info li:hover span:nth-child(2) {
+    opacity: 1;
+}
+
+.container .contacto .contactinfo .sci {
+    position: relative;
+    display: flex;
+    padding-left: 1.85rem;
+}
+
+.container .contacto .contactinfo .sci li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.container .contacto .contactinfo .sci li a {
+    text-decoration: none;
+}
+
+.container .contacto .contactinfo .sci li a:hover span {
+    opacity: 1;
+}
+
+.container .contacto .contactForm {
+    position: absolute;
+    padding: 70px 50px;
+    background: whitesmoke;
+    margin-left: 113px;
+    padding-left: 250px;
+    width: calc(100% - 155px);
+    height: 96%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.container .contacto .contactForm h2 {
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .contacto .contactForm .formBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.container .contacto .contactForm .formBox .inputBox {
+    position: relative;
+    margin: 0 0 35px 0;
+}
+
+.container .contacto .contactForm .formBox .inputBox.w50 {
+    width: 47%;
+}
+
+.container .contacto .contactForm .formBox .inputBox.w100 {
+    width: 100%;
+}
+
+.container .contacto .contactForm .formBox .inputBox textarea,
+.container .contacto .contactForm .formBox .inputBox input {
+    width: 100% !important;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.container .contacto .contactForm .formBox .inputBox textarea {
+    min-height: 120px;
+}
+
+.container .contacto .contactForm .formBox .inputBox label {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    transition: 0.5;
+    pointer-events: none;
+}
+
+.container .contacto .contactForm .formBox .inputBox textarea:focus~label,
+.container .contacto .contactForm .formBox .inputBox input:focus~label,
+.container .contacto .contactForm .formBox .inputBox textarea:valid~label,
+.container .contacto .contactForm .formBox .inputBox input:valid~label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: red;
+}
+
+input[type="email"]:focus~label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="submit"] {
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="submit"]:hover {
+    background: red;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="reset"] {
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+
+.container .contacto .contactForm .formBox .inputBox input[type="reset"]:hover {
+    background: red;
+}
+
+.footerContact {
+    position: relative;
+    padding: 1rem 30rem;
+}
+
+.footerContact .loogo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footerlogo {
+    width: 14.3rem;
+}
+
+.footerContact .loogo .cop p {
+    font-size: 20px;
+}
+
+.sci a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+.sci a span:hover {
+    background: #f12020;
+}
+
+.sci {
+    margin: 20px 0 0 0;
+}
+
+
+.principal{
+    background: #4a5f79;
+    font-family: Arial, Helvetica, sans-serif;
+}

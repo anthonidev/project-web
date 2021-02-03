@@ -1,0 +1,20 @@
+{
+    "name":"oneshot/tienda",
+    "description": "tienda online",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthoni Portocarrero Rodriguesz",
+            "email": "u18214640@utp.edu.pe"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "oneshot\\":"src/"
+        }
+    }
+}
